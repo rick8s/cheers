@@ -12,7 +12,7 @@ namespace Cheers
         {
             System.Console.WriteLine("Hello there! What's your name?");
             string name = System.Console.ReadLine();
-            System.Console.WriteLine("Hi, " + name + ", " + "What's your birthday? (DD/MM)");
+            System.Console.WriteLine("Hi, " + name + ", " + "What's your birthday? (MM/DD)");
             DateTime start = DateTime.Now;
             string birthday = System.Console.ReadLine();
             DateTime end = DateTime.Parse(birthday);
