@@ -36,7 +36,14 @@ namespace Cheers
             if (difference < 0)
             { 
                 int remainingDays = 0 - difference;
-                System.Console.WriteLine("Your birthday is " + remainingDays + " days away!");   
+                if (remainingDays < 2)
+                {
+                    System.Console.WriteLine("Your birthday is " + remainingDays + " day away!");
+                }
+                else
+                {
+                    System.Console.WriteLine("Your birthday is " + remainingDays + " days away!");
+                }
             }
             else if (difference == 0)
  
